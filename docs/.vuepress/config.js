@@ -1,6 +1,6 @@
 const themeConfig = require('./themeConfig.js')
 module.exports = {
-  title: 'Hello VuePress',
+  title: '你想要力量吗！',
   description: '走过路过，不要错过！！！',
   port: 9090,
   head: [

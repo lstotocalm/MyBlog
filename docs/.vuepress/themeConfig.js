@@ -9,6 +9,14 @@ module.exports = {
       link: '/document/vue/'
     },
     {
+      text: 'Article',
+      link: '/document/article/'
+    },
+    {
+      text: '结语',
+      link: '/document/funny/'
+    },
+    {
       text: 'Baidu',
       link: 'https://www.baidu.com'
     },
@@ -46,5 +54,13 @@ module.exports = {
     title: '扩展+',
     collapsable: false,
     children: getDocPath('document/other')
+  }, {
+    title: '其他文章',
+    collapsable: false,
+    children: getDocPath('document/article')
+  }, {
+    title: '结语',
+    collapsable: false,
+    children: getDocPath('document/funny')
   }]
 }
