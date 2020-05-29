@@ -13,7 +13,7 @@ git push origin master
 yarn build
 
 # 发布到服务器    
-scp -r ./docs/.vuepress/dist/ root@39.108.166.202:/home/project/
+scp -r ./docs/.vuepress/dist/ root@39.108.166.202:/home/project/Blog
 
 # 进入生成的文件夹
 # cd docs/.vuepress/dist
