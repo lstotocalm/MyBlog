@@ -15,7 +15,7 @@
 
 5. gzip的压缩（compression-webpack-plugin）
 
-6. 屏蔽sourceMap
+6. 屏蔽sourceMap，阻止.map文件的生成（.map文件：线上项目报错，根据.map文件来查找错误点）
 
 
 ## 2. 源码优化
