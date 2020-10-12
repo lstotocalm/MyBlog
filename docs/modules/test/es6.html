@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+     function Person() {
+      this.name = 'lucy'
+      this.age = 16
+      this.gender = 'girl'
+    }
+    Person.prototype.myName = function () {
+      return this.name
+    }
+    Person.fn = function () {
+      return 'static'
+    }
+    let p = new Person()
+    console.log(p, Person.fn())
+  </script>
+</body>
+</html>
